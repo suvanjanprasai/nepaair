@@ -1,0 +1,48 @@
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction:column ;
+}
+
+.flight-table {
+    width: 70%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.flight-header {
+    background-color: #387478;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+}
+.flight-header th {
+    padding: 15px;
+    text-align: center;
+}
+.flight-row {
+    text-align: center;
+    font-size: 1em;
+    color: #333;
+}
+.flight-row td {
+    padding: 15px;
+}
+.flight-row:nth-child(even) {
+    background-color: #f8f8f8;
+}
+.flight-row:hover {
+    background-color: #ececec;
+}
+.flight-caption {
+    margin-bottom: 15px;
+    font-size: 1.9em;
+    color: #243642;
+    text-align: center;
+    font-weight: bold;
+    margin-top:20px ;
+}

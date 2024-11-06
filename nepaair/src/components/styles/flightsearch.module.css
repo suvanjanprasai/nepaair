@@ -1,0 +1,85 @@
+.flight-search-container {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    width: 500px;
+    position: relative;
+    margin-top: 5%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.flight-search-heading {
+    text-align: center;
+    color: #387478;
+    font-weight: 400;
+    font-size: 35px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-weight: 400;
+}
+
+.input, .select {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding-left: 10px;
+
+}
+
+.passenger-count, .location-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.passenger-count-item, .location-container-item {
+    width: 48%;
+}
+
+.btn-search {
+    width: 100%;
+    background-color: #387478;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn-search:hover {
+    background-color: #479297;
+}
+
+.trip-type {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.trip-type-button {
+    width: 32%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #ddd;
+}
+
+.trip-type-button.active {
+    background-color: #387478;
+    color: #fff;
+}
+
+
