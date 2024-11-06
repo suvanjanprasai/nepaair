@@ -4,7 +4,7 @@ Preview of the homepage:<br/>
 Preview of the booking section:<br/>
 ![alt text](https://raw.githubusercontent.com/suvanjanprasai/nepaair/refs/heads/main/preview/searchflight.jpeg)
 Preview of the status section:<br/>
-![alt text](https://raw.githubusercontent.com/suvanjanprasai/nepaair/refs/heads/main/preview/status.png)
+![alt text](https://raw.githubusercontent.com/suvanjanprasai/nepaair/refs/heads/main/preview/checkstatus.png)
 Preview of the contact:<br/>
 ![alt text](https://raw.githubusercontent.com/suvanjanprasai/nepaair/refs/heads/main/preview/contact.png)
 Preview of the admin panel:<br/>
